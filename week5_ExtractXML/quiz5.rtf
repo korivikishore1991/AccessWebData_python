@@ -1,0 +1,238 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red51\green51\blue51;}
+\margl1440\margr1440\vieww24760\viewh13340\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs48 \cf2 \expnd0\expndtw0\kerning0
+eXtensible Markup Language\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 10\'a0questions\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 1.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 What is the name of the Python 2.x library to parse XML data?\
+\
+
+\b xml.etree.ElementTree
+\b0 \
+\
+xml.json\
+\
+xml-misc\
+\
+xml2\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 2.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 What is the method to cause Python to parse XML that is stored in a string?\
+\
+
+\b fromstring()
+\b0 \
+\
+parse()\
+\
+readall()\
+\
+extract()\
+\
+xpath()\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 3.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 In this XML, which are the "complex elements"? Wrong answer\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf1 \cb3 <people>\
+    <person>\
+       <name>Chuck</name>\
+       <phone>303 4456</phone>\
+    </person>\
+    <person>\
+       <name>Noah</name>\
+       <phone>622 7421</phone>\
+    </person>\
+</people>\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb1 \
+person\
+\
+
+\b phone
+\b0 \
+\
+Noah\
+\
+people\
+\
+
+\b name
+\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 4.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 In the following XML, which are attributes?\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf1 \cb3 <person>\
+  <name>Chuck</name>\
+  <phone type="intl">\
+     +1 734 303 4456\
+  </phone>\
+  <email hide="yes" />\
+</person>\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb1 \
+
+\b hide
+\b0 \
+\
+email\
+\
+
+\b type
+\b0 \
+\
+name\
+\
+person\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 5.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 In the following XML, which node is the parent node of node e\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf1 \cb3 <a>\
+  <b>X</b>\
+  <c>\
+    <d>Y</d>\
+    <e>Z</e>\
+  </c>\
+</a>\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb1 \
+a\
+\
+
+\b c\
+
+\b0 \
+e\
+\
+b\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 6.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 Looking at the following XML, what text value would we find at path "/a/c/e"\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf1 \cb3 <a>\
+  <b>X</b>\
+  <c>\
+    <d>Y</d>\
+    <e>Z</e>\
+  </c>\
+</a>\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb1 \
+e\
+\
+Y\
+\
+
+\b Z
+\b0 \
+\
+a\
+\
+b\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 7.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 What is the purpose of XML Schema?\
+\
+A Python program to tranform XML files\
+\
+To compute SHA1 checksums on data to make sure it is not modified in transit\
+\
+To transfer XML data reliably during network outages\
+\
+
+\b To establish a contract as to what is valid XML
+\b0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 8.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 If you were building an XML Schema and wanted to limit the values allowed in an xs:string field to only those in a particular list, what XML tag would you use in your XML Schema definition?\
+\
+xs:sequence\
+\
+xs:complexType\
+\
+xs:element\
+\
+
+\b xs:enumeration
+\b0 \
+\
+maxOccurs\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 9.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 What does the "Z" mean in this representation of a time:\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf1 \cb3 2002-05-30T09:30:10Z\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \cb1 \
+
+\b This time is in the UTC timezone
+\b0 \
+\
+The hours value is in the range 0-12\
+\
+The local timezone for this time is New Zealand\
+\
+This time is Daylight Savings Time\
+\pard\pardeftab720\partightenfactor0
+
+\fs50 \cf2 10.\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 Which of the following dates is in ISO8601 format?\
+\
+May 30, 2002\
+\
+
+\b 2002-05-30T09:30:10Z
+\b0 \
+\
+05/30/2002\
+\
+2002-May-30}

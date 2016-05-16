@@ -1,0 +1,532 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fnil\fcharset0 Georgia;\f1\fswiss\fcharset0 ArialMT;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red255\green255\blue255;\red51\green51\blue51;
+}
+\margl1440\margr1440\vieww14780\viewh8920\viewkind0
+\deftab720
+\pard\pardeftab720\sl600\sa500\partightenfactor0
+
+\f0\fs48 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 REST, JSON, and APIs\
+\pard\pardeftab720\sl420\sa80\partightenfactor0
+
+\f1\fs28 \cf2 10\'a0questions\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 1.\'a0\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs28 \cf2 Who is credited with getting the JSON movement started?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 Douglas Crockford
+\b0 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Mitchell Baker\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Bjarne Stroustrup\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Pooja Sankar\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 2.\'a0\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs28 \cf2 Which of the following is true about an API?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 An API keeps servers running even when the power is off\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 An API defines the header bits in the first 8 bits of all IP packets\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 An API defines the pin-outs for the USB connectors\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 An API is a contract that defines how to use a software library
+\b0 \ulnone \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 3.\'a0\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs28 \cf2 What is the method used to parse a string containing JSON data so that you can work with the data in Python?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 json.connect()\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 json.loads()  
+\b0 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 json.read()\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 json.parse()   \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 4.\'a0\
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+
+\fs28 \cf2 What kind of variable will you get in Python when the following JSON is parsed:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 \strokec3 \{ "id" : "001",\
+  "x" : "2",\
+  "name" : "Chuck"\
+\}\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f1\fs28 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 A tuple with three items\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 A list with three items  
+\b \
+\pard\pardeftab720\sl320\partightenfactor0
+
+\b0 \cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 A list with six items\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 A dictionary with three key / value pairs 
+\b0 \ulnone   \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 A list of tuples\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 5.\'a0\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs28 \cf2 Which of the following is 
+\i not
+\i0  true about the service-oriented approach?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Standards are developed where many pairs of applications must work together\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 An application makes use of the services provided by other applications\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 An application runs together all in one place
+\b0 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Web services and APIs are used to transfer data between applications\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 6.\'a0\
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+
+\fs28 \cf2 If the following JSON were parsed and put into the variable x,\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 \strokec3 \{\
+    "users": [\
+        \{\
+            "status": \{\
+                "text": "@jazzychad I just bought one .__.",\
+             \},\
+             "location": "San Francisco, California",\
+             "screen_name": "leahculver",\
+             "name": "Leah Culver",\
+         \},\
+   ...\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\f1\fs28 \cf2 \cb1 \strokec2 what Python code would extract "Leah Culver" form the JSON?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x["users"]["name"]\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x[0]["name"]\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x->name\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 x["users"][0]["name"]
+\b0 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x["name"]\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 7.\'a0\
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+
+\fs28 \cf2 What library call do you make to append properly encoded parameters to the end of a URL like the following:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 \strokec3 http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=Ann+Arbor%2C+MI\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f1\fs28 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 re.encode()\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 urllib.urlencode()
+\b0 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 re.match()\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 urllib.urlcat()\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 8.\'a0\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs28 \cf2 What happens when you exceed the Google geocoding API rate limit?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Your application starts to perform very slowly\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 You canot use the API until you respond to an email that contains a survey question\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 You cannot use the API for 24 hours
+\b0 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 The API starts to perform very slowly\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 9.\'a0\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs28 \cf2 What protocol does Twitter use to protect its API?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 PKI-HMAC\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Java Web Tokens\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 SHA1-MD5\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 SOAP\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 WS*Security\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 OAuth
+\b0 \ulnone \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 10.\'a0\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs28 \cf2 What header does Twitter use to tell you how many more API requests you can make before you will be rate limited?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x-request-count-down\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+
+\b \cf2 \ul \ulc2 x-rate-limit-remaining
+\b0 \ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x-max-requests\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 content-type\
+\
+\pard\pardeftab720\sl600\sa500\partightenfactor0
+
+\f0\fs48 \cf2 REST, JSON, and APIs\
+\pard\pardeftab720\sl420\sa80\partightenfactor0
+
+\f1\fs28 \cf2 10\'a0questions\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\fs50 \cf2 1.\'a0\
+
+\fs28 Who is credited with the REST approach to web services?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Bjarne Stroustrup\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 Roy Fielding\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Leonard Klienrock\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Daphne Koller\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Vint Cerf\
+
+\fs50 2.\'a0\
+
+\fs28 What Python library do you have to import to parse and handle JSON?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 import json\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 BeautifulSoup\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 import re\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 ElementTree\
+
+\fs50 3.\'a0\
+
+\fs28 Which of the following is a web services approach used by the Twitter API?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 SOAP\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 CORBA\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 XML-RPC\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 REST\ulnone \
+
+\fs50 4.\'a0\
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+
+\fs28 \cf2 What kind of variable will you get in Python when the following JSON is parsed:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 \strokec3 [ "Glenn", "Sally", "Jen" ]\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f1\fs28 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 A list with three items\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 A dictionary with three key / value pairs\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 A dictionary with one key / value pair\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Three tuples\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 One Tuple\
+
+\fs50 5.\'a0\
+
+\fs28 Which of the following is 
+\i not
+\i0  true about the service-oriented approach?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 An application runs together all in one place\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Standards are developed where many pairs of applications must work together\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 An application makes use of the services provided by other applications\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Web services and APIs are used to transfer data between applications\
+
+\fs50 6.\'a0\
+
+\fs28 Which of these two web service approaches is preferred in most modern service-oriented applications?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 REST - Representational state transfer\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 SOAP - Simple Object Access Protocol\
+
+\fs50 7.\'a0\
+\pard\pardeftab720\sl420\sa280\partightenfactor0
+
+\fs28 \cf2 What library call do you make to append properly encoded parameters to the end of a URL like the following:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs26 \cf3 \cb4 \strokec3 http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=Ann+Arbor%2C+MI\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f1\fs28 \cf2 \cb1 \strokec2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 urllib.urlcat()\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 urllib.urlencode()\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 re.encode()\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 re.match()\
+
+\fs50 8.\'a0\
+
+\fs28 What happens when you exceed the Google geocoding API rate limit?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 The API starts to perform very slowly\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Your application starts to perform very slowly\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 You cannot use the API for 24 hours\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 You canot use the API until you respond to an email that contains a survey question\
+
+\fs50 9.\'a0\
+
+\fs28 What protocol does Twitter use to protect its API?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 Java Web Tokens\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 OAuth\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 WS*Security\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 PKI-HMAC\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 SHA1-MD5\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 SOAP\
+
+\fs50 10.\'a0\
+
+\fs28 What header does Twitter use to tell you how many more API requests you can make before you will be rate limited?\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x-request-count-down\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \ul \ulc2 x-rate-limit-remaining\ulnone \
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 x-max-requests\
+\pard\pardeftab720\sl320\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 content-type\
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \
+}
